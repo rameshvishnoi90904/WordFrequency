@@ -53,7 +53,8 @@ class App extends Component {
 	}
 
 	getTopNWords() {
-		return fetch("http://localhost:8081/" + this.state.input)
+		var serverUrl = "https://quiet-mesa-13496.herokuapp.com/";
+		return fetch(serverUrl + this.state.input)
 			.then(response => {
 				return response.json();
 			})
