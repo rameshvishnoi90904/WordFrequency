@@ -1,6 +1,7 @@
 const http = require("http");
 const request = require("request");
 var _ = require("lodash");
+const PORT = process.env.PORT || 5000;
 
 var express = require("express");
 var app = express();
@@ -29,9 +30,7 @@ app.get("/:wordCount", function(req, res) {
 	});
 });
 
-const port = 8081;
-
-var server = app.listen(port, function() {
+var server = app.listen(PORT, function() {
 	var host = server.address().address;
 	var port = server.address().port;
 
