@@ -8,6 +8,5 @@ Gets Top N most Frequenct words
 
 Hosted on https://intense-ocean-81944.herokuapp.com/
 
-
-Screenshots
-![Alt text](/screenshots/Screenshot from 2018-03-11 13-09-22.png?raw=true "Optional Title")
+Screenshot
+  ![ScreenShot](https://raw.github.com/rameshvishnoi90904/WordFrequency/master/screenshots/preview.png)
